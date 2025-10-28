@@ -1,29 +1,71 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
   text-align: center;
-  background: #fafafa;
+  background: #f5f7fa;
   margin: 0;
   padding: 20px;
 }
 
-#gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 10px;
-  margin-top: 20px;
+h1 {
+  color: #333;
+  margin-bottom: 15px;
 }
 
-#gallery img {
+.settings {
+  margin-bottom: 10px;
+}
+
+#gallery.masonry {
+  column-count: 3;
+  column-gap: 15px;
+}
+
+@media (max-width: 768px) {
+  #gallery.masonry {
+    column-count: 2;
+  }
+}
+@media (max-width: 480px) {
+  #gallery.masonry {
+    column-count: 1;
+  }
+}
+
+.card {
+  display: inline-block;
+  background: #fff;
+  margin: 0 0 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
   width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  transition: transform 0.2s;
+  height: auto;
+  display: block;
 }
 
-#gallery img:hover {
-  transform: scale(1.05);
+.card .info {
+  padding: 8px;
+  text-align: left;
+}
+
+.card .info h3 {
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #222;
+}
+
+.card .info small {
+  color: #888;
+  font-size: 0.8rem;
 }
 
 .pagination {
@@ -37,9 +79,45 @@ button {
   color: white;
   border-radius: 6px;
   cursor: pointer;
+  margin: 0 5px;
 }
 
 button:disabled {
-  background: #aaa;
+  background: #ccc;
   cursor: not-allowed;
+}
+
+/* Lightbox Styles */
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 80vh;
+  border-radius: 10px;
+}
+
+#closeBtn {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+#lightboxInfo {
+  color: #ddd;
+  margin-top: 15px;
+  font-size: 0.95rem;
 }
