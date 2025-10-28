@@ -1,4 +1,29 @@
 [
-  { "url": "https://example.com/image1.jpg", "title": "Nature 1" },
-  { "url": "https://example.com/image2.jpg", "title": "Nature 2" }
+  {
+    "id": 1,
+    "url": "https://picsum.photos/id/1015/600/400",
+    "title": "Mountain View",
+    "description": "Beautiful sunrise in the mountains",
+    "category": "Nature",
+    "author": "Prothes Barai",
+    "date": "2025-09-10"
+  },
+  {
+    "id": 2,
+    "url": "https://picsum.photos/id/1025/400/500",
+    "title": "Golden Forest",
+    "description": "Autumn colors of the golden forest",
+    "category": "Nature",
+    "author": "Shreyasi Madhu",
+    "date": "2025-08-28"
+  },
+  {
+    "id": 3,
+    "url": "https://picsum.photos/id/1035/500/700",
+    "title": "Urban Skyline",
+    "description": "A calm city skyline at dusk",
+    "category": "City",
+    "author": "Ankan Barai",
+    "date": "2025-07-21"
+  }
 ]
