@@ -50,7 +50,8 @@ function openLightbox(img) {
   lightboxInfo.innerHTML = `
     <h2>${img.title}</h2>
     <p>${img.description}</p>
-    <small>📂 ${img.category} | ✍️ ${img.author} | 🗓️ ${img.date}</small>
+    <small>📂 ${img.category} | ✍️ <a href="${img.profile}" target="_blank">${img.author}</a> |🗓️ ${img.date}</small>
+
   `;
   lightbox.style.display = "flex";
 }
