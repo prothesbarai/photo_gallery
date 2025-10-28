@@ -7,14 +7,30 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>📸 My Photo Gallery</h1>
-  
-  <div id="gallery"></div>
+  <h1>📸 My Stylish Photo Gallery</h1>
+
+  <div class="settings">
+    <label>প্রতি পেজে ছবি সংখ্যা:</label>
+    <select id="perPageSelect">
+      <option value="6">6</option>
+      <option value="12" selected>12</option>
+      <option value="20">20</option>
+    </select>
+  </div>
+
+  <div id="gallery" class="masonry"></div>
 
   <div class="pagination">
     <button id="prevBtn">Previous</button>
     <span id="pageInfo"></span>
     <button id="nextBtn">Next</button>
+  </div>
+
+  <!-- Fullscreen Image Viewer -->
+  <div id="lightbox" class="lightbox">
+    <span id="closeBtn">&times;</span>
+    <img id="lightboxImg" src="" alt="">
+    <div id="lightboxInfo"></div>
   </div>
 
   <script src="script.js"></script>
