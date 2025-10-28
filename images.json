@@ -25,5 +25,248 @@
     "category": "City",
     "author": "Ankan Barai",
     "date": "2025-07-21"
+  },
+  {
+    "id": 4,
+    "url": "https://picsum.photos/id/1015/600/400",
+    "title": "Mountain View",
+    "description": "Beautiful sunrise in the mountains",
+    "category": "Nature",
+    "author": "Prothes Barai",
+    "date": "2025-09-10"
+  },
+  {
+    "id": 5,
+    "url": "https://picsum.photos/id/1025/400/500",
+    "title": "Golden Forest",
+    "description": "Autumn colors of the golden forest",
+    "category": "Nature",
+    "author": "Shreyasi Madhu",
+    "date": "2025-08-28"
+  },
+  {
+    "id": 6,
+    "url": "https://picsum.photos/id/1035/500/700",
+    "title": "Urban Skyline",
+    "description": "A calm city skyline at dusk",
+    "category": "City",
+    "author": "Ankan Barai",
+    "date": "2025-07-21"
+  },
+  {
+    "id": 7,
+    "url": "https://picsum.photos/id/1015/600/400",
+    "title": "Mountain View",
+    "description": "Beautiful sunrise in the mountains",
+    "category": "Nature",
+    "author": "Prothes Barai",
+    "date": "2025-09-10"
+  },
+  {
+    "id": 8,
+    "url": "https://picsum.photos/id/1025/400/500",
+    "title": "Golden Forest",
+    "description": "Autumn colors of the golden forest",
+    "category": "Nature",
+    "author": "Shreyasi Madhu",
+    "date": "2025-08-28"
+  },
+  {
+    "id": 9,
+    "url": "https://picsum.photos/id/1035/500/700",
+    "title": "Urban Skyline",
+    "description": "A calm city skyline at dusk",
+    "category": "City",
+    "author": "Ankan Barai",
+    "date": "2025-07-21"
+  },
+  {
+    "id": 10,
+    "url": "https://picsum.photos/id/1015/600/400",
+    "title": "Mountain View",
+    "description": "Beautiful sunrise in the mountains",
+    "category": "Nature",
+    "author": "Prothes Barai",
+    "date": "2025-09-10"
+  },
+  {
+    "id": 11,
+    "url": "https://picsum.photos/id/1025/400/500",
+    "title": "Golden Forest",
+    "description": "Autumn colors of the golden forest",
+    "category": "Nature",
+    "author": "Shreyasi Madhu",
+    "date": "2025-08-28"
+  },
+  {
+    "id": 12,
+    "url": "https://picsum.photos/id/1035/500/700",
+    "title": "Urban Skyline",
+    "description": "A calm city skyline at dusk",
+    "category": "City",
+    "author": "Ankan Barai",
+    "date": "2025-07-21"
+  },
+  {
+    "id": 13,
+    "url": "https://picsum.photos/id/1015/600/400",
+    "title": "Mountain View",
+    "description": "Beautiful sunrise in the mountains",
+    "category": "Nature",
+    "author": "Prothes Barai",
+    "date": "2025-09-10"
+  },
+  {
+    "id": 14,
+    "url": "https://picsum.photos/id/1025/400/500",
+    "title": "Golden Forest",
+    "description": "Autumn colors of the golden forest",
+    "category": "Nature",
+    "author": "Shreyasi Madhu",
+    "date": "2025-08-28"
+  },
+  {
+    "id": 15,
+    "url": "https://picsum.photos/id/1035/500/700",
+    "title": "Urban Skyline",
+    "description": "A calm city skyline at dusk",
+    "category": "City",
+    "author": "Ankan Barai",
+    "date": "2025-07-21"
+  },
+  {
+    "id": 16,
+    "url": "https://picsum.photos/id/1015/600/400",
+    "title": "Mountain View",
+    "description": "Beautiful sunrise in the mountains",
+    "category": "Nature",
+    "author": "Prothes Barai",
+    "date": "2025-09-10"
+  },
+  {
+    "id": 17,
+    "url": "https://picsum.photos/id/1025/400/500",
+    "title": "Golden Forest",
+    "description": "Autumn colors of the golden forest",
+    "category": "Nature",
+    "author": "Shreyasi Madhu",
+    "date": "2025-08-28"
+  },
+  {
+    "id": 18,
+    "url": "https://picsum.photos/id/1035/500/700",
+    "title": "Urban Skyline",
+    "description": "A calm city skyline at dusk",
+    "category": "City",
+    "author": "Ankan Barai",
+    "date": "2025-07-21"
+  },
+  {
+    "id": 19,
+    "url": "https://picsum.photos/id/1015/600/400",
+    "title": "Mountain View",
+    "description": "Beautiful sunrise in the mountains",
+    "category": "Nature",
+    "author": "Prothes Barai",
+    "date": "2025-09-10"
+  },
+  {
+    "id": 20,
+    "url": "https://picsum.photos/id/1025/400/500",
+    "title": "Golden Forest",
+    "description": "Autumn colors of the golden forest",
+    "category": "Nature",
+    "author": "Shreyasi Madhu",
+    "date": "2025-08-28"
+  },
+  {
+    "id": 21,
+    "url": "https://picsum.photos/id/1035/500/700",
+    "title": "Urban Skyline",
+    "description": "A calm city skyline at dusk",
+    "category": "City",
+    "author": "Ankan Barai",
+    "date": "2025-07-21"
+  },
+  {
+    "id": 22,
+    "url": "https://picsum.photos/id/1015/600/400",
+    "title": "Mountain View",
+    "description": "Beautiful sunrise in the mountains",
+    "category": "Nature",
+    "author": "Prothes Barai",
+    "date": "2025-09-10"
+  },
+  {
+    "id": 23,
+    "url": "https://picsum.photos/id/1025/400/500",
+    "title": "Golden Forest",
+    "description": "Autumn colors of the golden forest",
+    "category": "Nature",
+    "author": "Shreyasi Madhu",
+    "date": "2025-08-28"
+  },
+  {
+    "id": 24,
+    "url": "https://picsum.photos/id/1035/500/700",
+    "title": "Urban Skyline",
+    "description": "A calm city skyline at dusk",
+    "category": "City",
+    "author": "Ankan Barai",
+    "date": "2025-07-21"
+  },
+  {
+    "id": 25,
+    "url": "https://picsum.photos/id/1015/600/400",
+    "title": "Mountain View",
+    "description": "Beautiful sunrise in the mountains",
+    "category": "Nature",
+    "author": "Prothes Barai",
+    "date": "2025-09-10"
+  },
+  {
+    "id": 26,
+    "url": "https://picsum.photos/id/1025/400/500",
+    "title": "Golden Forest",
+    "description": "Autumn colors of the golden forest",
+    "category": "Nature",
+    "author": "Shreyasi Madhu",
+    "date": "2025-08-28"
+  },
+  {
+    "id": 27,
+    "url": "https://picsum.photos/id/1035/500/700",
+    "title": "Urban Skyline",
+    "description": "A calm city skyline at dusk",
+    "category": "City",
+    "author": "Ankan Barai",
+    "date": "2025-07-21"
+  },
+  {
+    "id": 28,
+    "url": "https://picsum.photos/id/1015/600/400",
+    "title": "Mountain View",
+    "description": "Beautiful sunrise in the mountains",
+    "category": "Nature",
+    "author": "Prothes Barai",
+    "date": "2025-09-10"
+  },
+  {
+    "id": 29,
+    "url": "https://picsum.photos/id/1025/400/500",
+    "title": "Golden Forest",
+    "description": "Autumn colors of the golden forest",
+    "category": "Nature",
+    "author": "Shreyasi Madhu",
+    "date": "2025-08-28"
+  },
+  {
+    "id": 30,
+    "url": "https://picsum.photos/id/1035/500/700",
+    "title": "Urban Skyline",
+    "description": "A calm city skyline at dusk",
+    "category": "City",
+    "author": "Ankan Barai",
+    "date": "2025-07-21"
   }
 ]
