@@ -8,6 +8,7 @@ const lightbox = document.getElementById("lightbox");
 const lightboxImg = document.getElementById("lightboxImg");
 const lightboxInfo = document.getElementById("lightboxInfo");
 const closeBtn = document.getElementById("closeBtn");
+const loadingSpinner = document.getElementById("loadingSpinner");
 
 let currentPage = 1;
 let perPage = parseInt(perPageSelect.value);
@@ -82,3 +83,12 @@ perPageSelect.addEventListener("change", (e) => {
 });
 
 loadImages();
+
+// Hide loading spinner and initialize gallery when page loads
+window.addEventListener('DOMContentLoaded', () => {
+  // Simulate loading delay
+  setTimeout(() => {
+    loadingSpinner.style.display = 'none';
+    initGallery();
+  }, 800);
+});

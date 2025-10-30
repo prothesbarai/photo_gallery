@@ -6,15 +6,6 @@ body {
   padding: 20px;
 }
 
-h1 {
-  color: #333;
-  margin-bottom: 15px;
-}
-
-.settings {
-  margin-bottom: 10px;
-}
-
 #gallery.masonry {
   column-count: 3;
   column-gap: 15px;
