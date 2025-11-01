@@ -28,16 +28,32 @@ function showPage() {
 
   pageImages.forEach(img => {
     const card = document.createElement("div");
-    card.className = "card";
-    card.innerHTML = `
-      <img src="${img.url}" alt="${img.title}">
-      <div class="info">
-        <h3>${img.title}</h3>
-        <small>📂 ${img.category} | ✍️ ${img.author}</small>
-      </div>
-    `;
-
+    card.className = "card mb-3 overflow-hidden shadow cursor-pointer"; 
+    // Card image
+    const image = document.createElement("img");
+    image.src = img.url;
+    image.alt = img.title;
+    image.className = "card-img-top w-100 d-block";
+    // Card body for info
+    const info = document.createElement("div");
+    info.className = "card-body p-2 text-start"; 
+    // Title
+    const title = document.createElement("h3");
+    title.className = "card-title my-1 fs-6 text-dark";
+    title.textContent = img.title;
+    // Small info
+    const smallInfo = document.createElement("p");
+    smallInfo.className = "card-text text-muted";
+    smallInfo.innerHTML = `<i class="bi bi-folder-fill"></i> ${img.category} |<i class="bi bi-person-fill"></i> ${img.author}`;
+    // Append title and info to card-body
+    info.appendChild(title);
+    info.appendChild(smallInfo);
+    // Append image and card-body to card
+    card.appendChild(image);
+    card.appendChild(info);
+    // Click event
     card.addEventListener("click", () => openLightbox(img));
+    // Append to gallery
     gallery.appendChild(card);
   });
 
@@ -50,10 +66,8 @@ function openLightbox(img) {
   lightboxImg.src = img.url;
   lightboxInfo.innerHTML = `
     <h2>${img.title}</h2>
-    <p>${img.description}</p>
-    <small>📂 ${img.category} | ✍️ <a href="${img.profile}" target="_blank">${img.author}</a> |🗓️ ${img.date}</small>
-
-  `;
+    <p>${img.description}</p> 
+    <small><i class="bi bi-folder-fill"></i> ${img.category} | <i class="bi bi-person-fill"></i> <a href="${img.profile}" target="_blank">${img.author}</a> | <i class="bi bi-calendar-fill"></i> ${img.date}</small>`;
   lightbox.style.display = "flex";
 }
 
