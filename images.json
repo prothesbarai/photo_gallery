@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+    "url": "ER.png",
     "title": "Mountain View",
     "description": "Beautiful sunrise in the mountains with golden light",
     "category": "Nature",
@@ -11,27 +11,27 @@
   },
   {
     "id": 2,
-    "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e",
+    "url": "ER.png",
     "title": "Golden Forest",
     "description": "Autumn colors of the golden forest with falling leaves",
     "category": "Nature",
     "author": "Shreyasi Madhu",
-    "profile": "https://shreyasimadhu.github.io/shreyasi_madhu_shampa/",
+    "profile": "ER.png",
     "date": "2025-08-28"
   },
   {
     "id": 3,
-    "url": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df",
+    "url": "ER.png",
     "title": "Urban Skyline",
     "description": "A calm city skyline at dusk with beautiful lights",
     "category": "City",
     "author": "Ankan Barai",
-    "profile": "https://prothes-asp.github.io/ankanbarai/",
+    "profile": "ER.png",
     "date": "2025-07-21"
   },
   {
     "id": 4,
-    "url": "https://images.unsplash.com/photo-1439066615861-d1af74d74000",
+    "url": "ER.png",
     "title": "Tranquil Lake",
     "description": "Serenity of the lake under morning light with reflections",
     "category": "Nature",
@@ -41,17 +41,17 @@
   },
   {
     "id": 5,
-    "url": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07",
+    "url": "ER.png",
     "title": "Sunset Valley",
     "description": "A warm sunset reflecting on the valley with amazing colors",
     "category": "Nature",
     "author": "Shreyasi Madhu",
-    "profile": "https://shreyasimadhu.github.io/shreyasi_madhu_shampa/",
+    "profile": "ER.png",
     "date": "2025-05-29"
   },
   {
     "id": 6,
-    "url": "https://images.unsplash.com/photo-1470219556762-1771e7f9427d",
+    "url": "ER.png",
     "title": "City Lights",
     "description": "A bright city glowing at night with skyscrapers",
     "category": "City",
